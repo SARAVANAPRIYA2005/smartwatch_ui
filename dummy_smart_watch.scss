@@ -17,6 +17,13 @@
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+  }
 }
 
 .center {
@@ -33,6 +40,12 @@
   border-radius: 50%;
   border: 7px solid #3a3a3a;
   position: relative;
+  
+  @media (max-width: 768px) {
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+  }
 }
 
 .tick {
@@ -115,5 +128,15 @@ span.fa-heart {
   }
   100% {
     stroke-dashoffset: -720;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame {
+    font-size: 10px;
+  }
+  
+  .time {
+    font-size: 20px;
   }
 }
