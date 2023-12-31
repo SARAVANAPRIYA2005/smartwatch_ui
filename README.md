@@ -2,9 +2,9 @@
 
 This repository contains the implementation of a dummy smart watch using SCSS.
 
-You can view the project at the following URL: [https://kaz-smino.github.io/dummy_smart_watch/](https://kaz-smino.github.io/dummy_smart_watch/)
+You can view the project at the following URL: ~~https://kaz-smino.github.io/dummy_smart_watch/~~
 
-## Project Details
+## Project Detail
 
 The project uses SCSS to style a dummy smart watch. The watch is designed using various SCSS features and animations to give it a realistic look.
 
