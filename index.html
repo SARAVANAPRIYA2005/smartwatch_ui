@@ -10,16 +10,17 @@
 <body>
 <div class="frame">
   <div class="center">
-    <div class="dial">
-      <svg class="ring">
-  		<circle/>
-    </svg>
+      <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+        style="fill:black;stroke:black;stroke-width:5;opacity:0.5" />
+      </svg>
       <div class="ticks"></div>
-      <div class="details">
-        <div class="date" id="currentDate"></div>
-        <div class="time" id="currentTime"></div>
+      <div class="details"><br>
+        <div class="battery">🔋100%</div>
+        <div class="date" id="currentDate"></div><br>
+        <div class="time" id="currentTime"></div><br>
         <div class="stats">
-          <div class="heart-rate"><span class="fa fa-heart"></span>81</div>
+          <div class="heart-rate"><span class="fa fa-heart"></span>81</div><br>
           <div class="calories">1248 kcal</div>
         </div>
       </div>
@@ -28,3 +29,4 @@
 </div>
 </body>
 </html>
+

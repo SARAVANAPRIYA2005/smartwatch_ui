@@ -18,29 +18,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  @media (max-width: 768px) {
-    width: 300px;
-    height: 300px;
-    margin-top: -150px;
-    margin-left: -150px;
-  }
-}
 
 .center {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 68%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.dial {
-  width: 212px;
-  height: 212px;
-  background-color: #242424;
-  border-radius: 50%;
-  border: 7px solid #3a3a3a;
-  position: relative;
-  
+.dial { 
   @media (max-width: 768px) {
     width: 150px;
     height: 150px;
@@ -61,22 +48,28 @@
 .details {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left:33%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
 }
 
+
 .date,
 .calories {
   text-transform: uppercase;
   text-align: center;
+  font-size: 20px;
   margin: 0 auto;
+
+
 }
 
 .time {
-  font-size: 29px;
-  font-weight: 700;
+  font: size 20px;
+  font: weight 100px;
+  text-align: center;
+  left: 10px;
 }
 
 .stats {
@@ -100,24 +93,9 @@ span.fa-heart {
   }
 }
 
-.ring {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
 
-.ring circle {
-  cx: 106px;
-  cy: 106px;
-  r: 100px;
-  fill: transparent;
-  stroke: #58e2ec;
-  stroke-width: 3px;
-  stroke-dasharray: 720;
-  animation: ring-fill-empty 5s linear infinite;
-  transform-origin: center center;
-  transform: rotate(-90deg);
-}
+
+
 
 @keyframes ring-fill-empty {
   0% {
@@ -139,4 +117,5 @@ span.fa-heart {
   .time {
     font-size: 20px;
   }
+}
 }
